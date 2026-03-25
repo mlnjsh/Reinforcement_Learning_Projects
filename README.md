@@ -1,0 +1,348 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-Only-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Streamlit-Apps-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jupyter-Notebooks-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
+  <img src="https://img.shields.io/github/stars/mlnjsh/Reinforcement_Learning_Projects?style=for-the-badge&color=gold" />
+  <img src="https://img.shields.io/github/license/mlnjsh/Reinforcement_Learning_Projects?style=for-the-badge" />
+</p>
+
+<h1 align="center">Reinforcement Learning from Scratch</h1>
+
+<p align="center">
+  <strong>20 Theory Notebooks + 10 Real-World Projects + 10 Interactive Streamlit Apps</strong><br>
+  <em>Every algorithm implemented from scratch using only NumPy and Matplotlib. No black boxes.</em>
+</p>
+
+<p align="center">
+  <a href="#-notebooks">Notebooks</a> &bull;
+  <a href="#-projects">Projects</a> &bull;
+  <a href="#-quick-start">Quick Start</a> &bull;
+  <a href="#-streamlit-apps">Streamlit Apps</a> &bull;
+  <a href="#-learning-path">Learning Path</a>
+</p>
+
+---
+
+## Why This Repo?
+
+Most RL resources either drown you in theory or hand you a black-box library. **This repo does neither.**
+
+- Every algorithm is **implemented from scratch** -- you see every gradient, every update, every Q-value
+- Every concept comes with **LaTeX math** and **plain-English explanations** side by side
+- Every project has an **interactive Streamlit app** you can play with in your browser
+- **Zero dependency on OpenAI Gym, Stable Baselines, or any RL library** -- just NumPy
+
+> *"What I cannot create, I do not understand."* -- Richard Feynman
+
+---
+
+## What's Inside
+
+### 20 Theory Notebooks
+
+Build your RL foundation from the ground up. Each notebook contains **detailed math**, **step-by-step derivations**, and **working code** with visualizations.
+
+| # | Topic | Key Concepts |
+|:-:|-------|-------------|
+| 01 | **Introduction to RL** | Agent-Environment loop, Return, Discount factor |
+| 02 | **Markov Decision Processes** | Markov property, MDP tuple, V/Q functions |
+| 03 | **Bellman Equations** | Expectation & Optimality equations, Matrix form |
+| 04 | **Dynamic Programming** | Policy Evaluation, Policy Iteration, Value Iteration |
+| 05 | **Monte Carlo Methods** | First-Visit MC, Importance Sampling |
+| 06 | **Temporal Difference Learning** | TD(0), Bias-Variance tradeoff, TD vs MC |
+| 07 | **SARSA** | On-policy TD control, Expected SARSA |
+| 08 | **Q-Learning** | Off-policy TD, Double Q-Learning |
+| 09 | **N-Step & Eligibility Traces** | N-step returns, TD(lambda), Backward view |
+| 10 | **Function Approximation** | Linear FA, Semi-gradient TD, Tile Coding |
+| 11 | **Policy Gradient (REINFORCE)** | Policy Gradient Theorem, Baseline |
+| 12 | **Actor-Critic** | TD error as advantage, A2C |
+| 13 | **GAE** | Generalized Advantage Estimation |
+| 14 | **PPO** | Clipped objective, KL penalty |
+| 15 | **DQN** | Experience Replay, Target Networks |
+| 16 | **Double & Dueling DQN** | Overestimation fix, V+A decomposition |
+| 17 | **Experience Replay** | Uniform, Prioritized (SumTree), HER |
+| 18 | **Exploration vs Exploitation** | UCB, Thompson Sampling, Intrinsic Motivation |
+| 19 | **Multi-Armed Bandits** | Regret, Gradient Bandit, Contextual Bandits |
+| 20 | **Model-Based RL** | Dyna-Q, MCTS, World Models |
+
+### 10 Real-World Projects
+
+Each project applies RL to a real domain with a **detailed notebook**, **interactive Streamlit app**, and **comprehensive documentation**.
+
+| # | Project | Domain | Key Algorithm | App |
+|:-:|---------|--------|--------------|:---:|
+| 01 | **RLHF for LLM Alignment** | AI Safety | PPO + Bradley-Terry Reward Model | [Launch](#run-any-app) |
+| 02 | **Offline RL for Healthcare** | Medicine | Conservative Q-Learning (CQL) | [Launch](#run-any-app) |
+| 03 | **Multi-Agent RL** | Robotics | Independent Q-Learning, Predator-Prey | [Launch](#run-any-app) |
+| 04 | **Safe RL** | Autonomous Systems | Lagrangian Constrained MDP | [Launch](#run-any-app) |
+| 05 | **World Models** | Planning | Dyna-Q, Learned Dynamics | [Launch](#run-any-app) |
+| 06 | **RLAIF** | AI Safety | AI Feedback vs Human Feedback | [Launch](#run-any-app) |
+| 07 | **Hierarchical RL** | Navigation | Options Framework, Four Rooms | [Launch](#run-any-app) |
+| 08 | **Meta-RL** | Few-Shot Learning | MAML, Learning to Learn | [Launch](#run-any-app) |
+| 09 | **Drug Discovery** | Pharma | Multi-Objective Policy Gradient | [Launch](#run-any-app) |
+| 10 | **Sim-to-Real Transfer** | Robotics | Domain Randomization | [Launch](#run-any-app) |
+
+---
+
+## Quick Start
+
+### Prerequisites
+
+```bash
+pip install numpy matplotlib streamlit jupyter
+```
+
+That's it. No complex dependencies.
+
+### Run Any Notebook
+
+```bash
+cd Notebooks
+jupyter notebook
+# Open any of the 20 notebooks
+```
+
+### Run Any App
+
+```bash
+# Example: RLHF Demo
+cd Project_01_RLHF_LLM_Alignment
+streamlit run app.py
+
+# Example: Drug Discovery
+cd Project_09_Drug_Discovery_RL
+streamlit run app.py
+```
+
+### Run All Notebooks Programmatically
+
+```bash
+cd Notebooks
+jupyter nbconvert --to notebook --execute --inplace *.ipynb
+```
+
+---
+
+## Learning Path
+
+Not sure where to start? Follow this path:
+
+```
+                    START HERE
+                        |
+                        v
+            +-------------------------+
+            |  01-04: Foundations      |
+            |  MDPs, Bellman, DP      |
+            +-------------------------+
+                        |
+              +---------+---------+
+              v                   v
+    +----------------+   +----------------+
+    | 05-08: Tabular |   | 18-19: Bandits |
+    | MC, TD, SARSA  |   | Exploration    |
+    | Q-Learning     |   +----------------+
+    +----------------+
+              |
+              v
+    +-------------------+
+    | 09-10: Scaling Up |
+    | N-Step, Func Approx|
+    +-------------------+
+              |
+     +--------+--------+
+     v                  v
++-----------+   +-------------+
+| 11-14:    |   | 15-17:      |
+| Policy    |   | Value-Based |
+| Gradient  |   | DQN Family  |
+| REINFORCE |   | Replay      |
+| AC, PPO   |   +-------------+
++-----------+
+     |
+     v
++-----------------------------------+
+|     20: Model-Based RL            |
++-----------------------------------+
+              |
+              v
++-----------------------------------+
+|   PROJECTS: Pick your interest!   |
+|                                   |
+|   AI Safety --> 01 (RLHF), 06    |
+|   Healthcare --> 02, 09           |
+|   Robotics --> 03, 04, 10        |
+|   Planning --> 05, 07            |
+|   Meta-Learning --> 08           |
++-----------------------------------+
+```
+
+---
+
+## Project Deep Dives
+
+<details>
+<summary><strong>Project 01: RLHF for LLM Alignment</strong></summary>
+
+Train language models to follow human preferences using the same pipeline behind ChatGPT and Claude.
+
+**The 3-Step Pipeline:**
+1. **Supervised Fine-Tuning (SFT)** -- Train on human demonstrations
+2. **Reward Model** -- Learn preferences from human rankings (Bradley-Terry model)
+3. **PPO Fine-Tuning** -- Optimize policy with KL-constrained PPO
+
+**Key Equation:**
+
+$$L^{CLIP}(\theta) = \mathbb{E}\left[\min\left(r_t(\theta)\hat{A}_t, \text{clip}(r_t, 1\pm\epsilon)\hat{A}_t\right)\right]$$
+
+</details>
+
+<details>
+<summary><strong>Project 02: Offline RL for Healthcare</strong></summary>
+
+Learn optimal treatment policies from patient records without experimenting on real patients.
+
+**Why Offline RL?** You can't reset a patient. Offline RL learns from fixed datasets.
+
+**Key Algorithm:** Conservative Q-Learning (CQL) penalizes out-of-distribution actions:
+
+$$Q_{CQL} = Q - \alpha \cdot \mathbb{E}_\pi[Q(s,a)] + \alpha \cdot \mathbb{E}_{data}[Q(s,a)]$$
+
+</details>
+
+<details>
+<summary><strong>Project 03: Multi-Agent RL</strong></summary>
+
+Multiple agents learning simultaneously in a predator-prey environment.
+
+**Challenge:** Each agent's environment is non-stationary because other agents are also learning.
+
+</details>
+
+<details>
+<summary><strong>Project 04: Safe RL</strong></summary>
+
+Learn policies that maximize reward while satisfying safety constraints.
+
+**Lagrangian Approach:**
+
+$$L(\theta, \lambda) = J(\theta) - \lambda(J_c(\theta) - d)$$
+
+</details>
+
+<details>
+<summary><strong>Project 05: World Models</strong></summary>
+
+Learn the environment dynamics and plan in imagination.
+
+**Key Idea:** $z_{t+1} = f_\theta(z_t, a_t)$ -- predict next state from current state and action.
+
+</details>
+
+<details>
+<summary><strong>Project 06: RLAIF (AI Feedback)</strong></summary>
+
+Replace expensive human feedback with AI-generated feedback. Compare convergence and quality.
+
+</details>
+
+<details>
+<summary><strong>Project 07: Hierarchical RL</strong></summary>
+
+Break complex tasks into subtasks using the Options Framework in a Four Rooms environment.
+
+</details>
+
+<details>
+<summary><strong>Project 08: Meta-RL (Learning to Learn)</strong></summary>
+
+Train agents that can adapt to new tasks in just a few episodes using MAML.
+
+**MAML Update:**
+
+$$\theta^* = \theta - \alpha \nabla_\theta \mathcal{L}_{task}(\theta - \alpha \nabla_\theta \mathcal{L}_{task}(\theta))$$
+
+</details>
+
+<details>
+<summary><strong>Project 09: Drug Discovery</strong></summary>
+
+Use RL to design molecules that satisfy multiple drug properties (LogP, toxicity, drug-likeness).
+
+</details>
+
+<details>
+<summary><strong>Project 10: Sim-to-Real Transfer</strong></summary>
+
+Train in simulation, deploy in the real world using Domain Randomization.
+
+</details>
+
+---
+
+## Environments Built from Scratch
+
+No OpenAI Gym dependency. Every environment is hand-crafted:
+
+| Environment | Used In | States | Actions |
+|-------------|---------|--------|---------|
+| GridWorld (4x4) | Notebooks 01-04 | 16 discrete | 4 (up/right/down/left) |
+| Blackjack | Notebook 05 | Player sum x Dealer | Hit / Stick |
+| Random Walk | Notebook 06, 09 | 5-19 states | Left / Right |
+| Cliff Walking | Notebook 07 | 4x12 grid | 4 directions |
+| Mountain Car | Notebook 10 | Position x Velocity | 3 (reverse/neutral/forward) |
+| CartPole | Notebooks 11-16 | 4D continuous | 2 (left/right) |
+| 10-Armed Bandit | Notebooks 18-19 | None | K arms |
+| Maze (6x9) | Notebook 20 | 54 cells | 4 directions |
+| Predator-Prey | Project 03 | Grid positions | 5 (4 dirs + stay) |
+| Four Rooms | Project 07 | Multi-room grid | 4 directions |
+
+---
+
+## Tech Stack
+
+| Component | Technology |
+|-----------|-----------|
+| Core Math | NumPy |
+| Visualization | Matplotlib |
+| Interactive Apps | Streamlit |
+| Notebooks | Jupyter |
+| Language | Python 3.10+ |
+
+**Philosophy:** Zero abstraction layers. When you read `Q[state][action] += alpha * td_error`, that's exactly what's happening. No hidden magic.
+
+---
+
+## Contributing
+
+Found a bug? Want to add a project? PRs welcome!
+
+1. Fork the repo
+2. Create your branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes
+4. Push and open a PR
+
+---
+
+## References
+
+| Resource | Author |
+|----------|--------|
+| *Reinforcement Learning: An Introduction* | Sutton & Barto (2018) |
+| *Deep RL Course* | Hugging Face |
+| *Spinning Up in Deep RL* | OpenAI |
+| *Training LLMs to Follow Instructions with Human Feedback* | Ouyang et al. (2022) |
+| *Proximal Policy Optimization Algorithms* | Schulman et al. (2017) |
+| *Playing Atari with Deep Reinforcement Learning* | Mnih et al. (2013) |
+
+---
+
+<p align="center">
+  <strong>If you find this useful, please give it a star!</strong><br>
+  It helps others discover this resource.
+</p>
+
+<p align="center">
+  Made with determination by <a href="https://github.com/mlnjsh">Milan Amrut Joshi</a>
+</p>
