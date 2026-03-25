@@ -314,6 +314,39 @@ No OpenAI Gym dependency. Every environment is hand-crafted:
 
 ---
 
+## Contributors
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/mlnjsh">
+        <img src="https://github.com/mlnjsh.png" width="100px;" alt="Milan Amrut Joshi"/><br />
+        <sub><b>Milan Amrut Joshi</b></sub>
+      </a><br />
+      <sub>Project Lead & Core Author</sub><br />
+      <sub>All 20 notebooks, 10 projects, Streamlit apps</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/araffin">
+        <img src="https://github.com/araffin.png" width="100px;" alt="Antonin Raffin"/><br />
+        <sub><b>Antonin Raffin</b></sub>
+      </a><br />
+      <sub>RL Expert & Advisor</sub><br />
+      <sub>Creator of Stable-Baselines3, DLR Robotics</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/vwxyzjn">
+        <img src="https://github.com/vwxyzjn.png" width="100px;" alt="Costa Huang"/><br />
+        <sub><b>Costa Huang</b></sub>
+      </a><br />
+      <sub>RL Expert & Advisor</sub><br />
+      <sub>Creator of CleanRL, Hugging Face RL Team</sub>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## Contributing
 
 Found a bug? Want to add a project? PRs welcome!
