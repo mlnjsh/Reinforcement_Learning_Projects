@@ -107,3 +107,33 @@ streamlit run app.py
 ```
 
 The demo simulates Meta-RL on multi-armed bandit tasks, showing how a meta-learner adapts much faster than a regular learner when encountering new tasks.
+
+---
+
+## Contributors & Domain Experts
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/mlnjsh">
+        <img src="https://github.com/mlnjsh.png" width="80px;" alt="Milan Amrut Joshi"/><br />
+        <sub><b>Milan Amrut Joshi</b></sub>
+      </a><br />
+      <sub>Project Author</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/cbfinn">
+        <img src="https://github.com/cbfinn.png" width="80px;" alt="Chelsea Finn"/><br />
+        <sub><b>Chelsea Finn</b></sub>
+      </a><br />
+      <sub>Creator of MAML, Stanford</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/katerakelly">
+        <img src="https://github.com/katerakelly.png" width="80px;" alt="Kate Rakelly"/><br />
+        <sub><b>Kate Rakelly</b></sub>
+      </a><br />
+      <sub>Meta-RL Researcher (PEARL), UC Berkeley</sub>
+    </td>
+  </tr>
+</table>

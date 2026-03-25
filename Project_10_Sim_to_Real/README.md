@@ -111,3 +111,33 @@ streamlit run app.py
 ```
 
 The demo simulates a CartPole-like balancing task with clean (sim) and noisy (real) dynamics. Compare sim-only training, domain-randomized training, and real training to see how domain randomization closes the reality gap.
+
+---
+
+## Contributors & Domain Experts
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/mlnjsh">
+        <img src="https://github.com/mlnjsh.png" width="80px;" alt="Milan Amrut Joshi"/><br />
+        <sub><b>Milan Amrut Joshi</b></sub>
+      </a><br />
+      <sub>Project Author</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/josht">
+        <img src="https://github.com/josht.png" width="80px;" alt="Josh Tobin"/><br />
+        <sub><b>Josh Tobin</b></sub>
+      </a><br />
+      <sub>Domain Randomization Pioneer, OpenAI</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/xbpeng">
+        <img src="https://github.com/xbpeng.png" width="80px;" alt="Xue Bin Peng"/><br />
+        <sub><b>Xue Bin Peng</b></sub>
+      </a><br />
+      <sub>Sim-to-Real Transfer & Motion Imitation, UC Berkeley</sub>
+    </td>
+  </tr>
+</table>

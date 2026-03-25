@@ -134,3 +134,33 @@ The demo lets you:
 - See how model prediction accuracy improves over training
 - Adjust planning horizon and model update frequency
 - Visualize planned vs actual trajectories
+
+---
+
+## Contributors & Domain Experts
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/mlnjsh">
+        <img src="https://github.com/mlnjsh.png" width="80px;" alt="Milan Amrut Joshi"/><br />
+        <sub><b>Milan Amrut Joshi</b></sub>
+      </a><br />
+      <sub>Project Author</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/hardmaru">
+        <img src="https://github.com/hardmaru.png" width="80px;" alt="David Ha"/><br />
+        <sub><b>David Ha</b></sub>
+      </a><br />
+      <sub>Creator of World Models Paper, Google Brain</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/danijar">
+        <img src="https://github.com/danijar.png" width="80px;" alt="Danijar Hafner"/><br />
+        <sub><b>Danijar Hafner</b></sub>
+      </a><br />
+      <sub>Creator of Dreamer/DreamerV2/V3, Google DeepMind</sub>
+    </td>
+  </tr>
+</table>

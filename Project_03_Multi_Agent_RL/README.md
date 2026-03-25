@@ -145,3 +145,33 @@ The demo lets you:
 - Control grid size, number of agents, and training parameters
 - Visualize agent trajectories and learned policies
 - Track capture rate and cooperation metrics over training
+
+---
+
+## Contributors & Domain Experts
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/mlnjsh">
+        <img src="https://github.com/mlnjsh.png" width="80px;" alt="Milan Amrut Joshi"/><br />
+        <sub><b>Milan Amrut Joshi</b></sub>
+      </a><br />
+      <sub>Project Author</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/shariqiqbal2810">
+        <img src="https://github.com/shariqiqbal2810.png" width="80px;" alt="Shariq Iqbal"/><br />
+        <sub><b>Shariq Iqbal</b></sub>
+      </a><br />
+      <sub>Multi-Agent RL Researcher, USC</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/schroederdewitt">
+        <img src="https://github.com/schroederdewitt.png" width="80px;" alt="Christian Schroeder de Witt"/><br />
+        <sub><b>Christian Schroeder de Witt</b></sub>
+      </a><br />
+      <sub>QMIX Co-author, Oxford</sub>
+    </td>
+  </tr>
+</table>

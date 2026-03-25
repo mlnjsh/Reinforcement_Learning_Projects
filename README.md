@@ -314,7 +314,7 @@ No OpenAI Gym dependency. Every environment is hand-crafted:
 
 ---
 
-## Contributors
+## Contributors & Domain Experts
 
 <table>
   <tr>
@@ -341,6 +341,186 @@ No OpenAI Gym dependency. Every environment is hand-crafted:
       </a><br />
       <sub>RL Expert & Advisor</sub><br />
       <sub>Creator of CleanRL, Hugging Face RL Team</sub>
+    </td>
+  </tr>
+</table>
+
+### Domain Experts by Project
+
+<table>
+  <tr>
+    <th>Project</th>
+    <th>Expert 1</th>
+    <th>Expert 2</th>
+  </tr>
+  <tr>
+    <td><strong>01 — RLHF LLM Alignment</strong></td>
+    <td align="center">
+      <a href="https://github.com/joschu">
+        <img src="https://github.com/joschu.png" width="60px;" alt="John Schulman"/><br />
+        <sub><b>John Schulman</b></sub>
+      </a><br />
+      <sub>Co-creator of PPO, TRPO & RLHF</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/lvwerra">
+        <img src="https://github.com/lvwerra.png" width="60px;" alt="Leandro von Werra"/><br />
+        <sub><b>Leandro von Werra</b></sub>
+      </a><br />
+      <sub>Creator of TRL, Hugging Face</sub>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>02 — Offline RL Healthcare</strong></td>
+    <td align="center">
+      <a href="https://github.com/aviralkumar2907">
+        <img src="https://github.com/aviralkumar2907.png" width="60px;" alt="Aviral Kumar"/><br />
+        <sub><b>Aviral Kumar</b></sub>
+      </a><br />
+      <sub>Creator of CQL, UC Berkeley</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/justinjfu">
+        <img src="https://github.com/justinjfu.png" width="60px;" alt="Justin Fu"/><br />
+        <sub><b>Justin Fu</b></sub>
+      </a><br />
+      <sub>D4RL Benchmark Creator, UC Berkeley</sub>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>03 — Multi-Agent RL</strong></td>
+    <td align="center">
+      <a href="https://github.com/shariqiqbal2810">
+        <img src="https://github.com/shariqiqbal2810.png" width="60px;" alt="Shariq Iqbal"/><br />
+        <sub><b>Shariq Iqbal</b></sub>
+      </a><br />
+      <sub>MARL Researcher, USC</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/schroederdewitt">
+        <img src="https://github.com/schroederdewitt.png" width="60px;" alt="Christian Schroeder de Witt"/><br />
+        <sub><b>Christian Schroeder de Witt</b></sub>
+      </a><br />
+      <sub>QMIX Co-author, Oxford</sub>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>04 — Safe RL</strong></td>
+    <td align="center">
+      <a href="https://github.com/jachiam">
+        <img src="https://github.com/jachiam.png" width="60px;" alt="Joshua Achiam"/><br />
+        <sub><b>Joshua Achiam</b></sub>
+      </a><br />
+      <sub>Creator of CPO, OpenAI</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/alexray">
+        <img src="https://github.com/alexray.png" width="60px;" alt="Alex Ray"/><br />
+        <sub><b>Alex Ray</b></sub>
+      </a><br />
+      <sub>Safety Gym Co-author, OpenAI</sub>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>05 — World Models</strong></td>
+    <td align="center">
+      <a href="https://github.com/hardmaru">
+        <img src="https://github.com/hardmaru.png" width="60px;" alt="David Ha"/><br />
+        <sub><b>David Ha</b></sub>
+      </a><br />
+      <sub>World Models Paper, Google Brain</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/danijar">
+        <img src="https://github.com/danijar.png" width="60px;" alt="Danijar Hafner"/><br />
+        <sub><b>Danijar Hafner</b></sub>
+      </a><br />
+      <sub>Dreamer/V2/V3, Google DeepMind</sub>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>06 — RLAIF</strong></td>
+    <td align="center">
+      <a href="https://github.com/lvwerra">
+        <img src="https://github.com/lvwerra.png" width="60px;" alt="Leandro von Werra"/><br />
+        <sub><b>Leandro von Werra</b></sub>
+      </a><br />
+      <sub>TRL Library, Hugging Face</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/edbeeching">
+        <img src="https://github.com/edbeeching.png" width="60px;" alt="Edward Beeching"/><br />
+        <sub><b>Edward Beeching</b></sub>
+      </a><br />
+      <sub>HF RL Researcher</sub>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>07 — Hierarchical RL</strong></td>
+    <td align="center">
+      <a href="https://github.com/ofirnachum">
+        <img src="https://github.com/ofirnachum.png" width="60px;" alt="Ofir Nachum"/><br />
+        <sub><b>Ofir Nachum</b></sub>
+      </a><br />
+      <sub>Hierarchical RL, Google Brain</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/pierrelux">
+        <img src="https://github.com/pierrelux.png" width="60px;" alt="Pierre-Luc Bacon"/><br />
+        <sub><b>Pierre-Luc Bacon</b></sub>
+      </a><br />
+      <sub>Options Framework, Mila</sub>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>08 — Meta-RL</strong></td>
+    <td align="center">
+      <a href="https://github.com/cbfinn">
+        <img src="https://github.com/cbfinn.png" width="60px;" alt="Chelsea Finn"/><br />
+        <sub><b>Chelsea Finn</b></sub>
+      </a><br />
+      <sub>Creator of MAML, Stanford</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/katerakelly">
+        <img src="https://github.com/katerakelly.png" width="60px;" alt="Kate Rakelly"/><br />
+        <sub><b>Kate Rakelly</b></sub>
+      </a><br />
+      <sub>PEARL Meta-RL, UC Berkeley</sub>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>09 — Drug Discovery RL</strong></td>
+    <td align="center">
+      <a href="https://github.com/wengong-jin">
+        <img src="https://github.com/wengong-jin.png" width="60px;" alt="Wengong Jin"/><br />
+        <sub><b>Wengong Jin</b></sub>
+      </a><br />
+      <sub>Molecular Generation, MIT</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/rbharath">
+        <img src="https://github.com/rbharath.png" width="60px;" alt="Bharath Ramsundar"/><br />
+        <sub><b>Bharath Ramsundar</b></sub>
+      </a><br />
+      <sub>Creator of DeepChem</sub>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>10 — Sim-to-Real Transfer</strong></td>
+    <td align="center">
+      <a href="https://github.com/josht">
+        <img src="https://github.com/josht.png" width="60px;" alt="Josh Tobin"/><br />
+        <sub><b>Josh Tobin</b></sub>
+      </a><br />
+      <sub>Domain Randomization, OpenAI</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/xbpeng">
+        <img src="https://github.com/xbpeng.png" width="60px;" alt="Xue Bin Peng"/><br />
+        <sub><b>Xue Bin Peng</b></sub>
+      </a><br />
+      <sub>Sim-to-Real Transfer, UC Berkeley</sub>
     </td>
   </tr>
 </table>

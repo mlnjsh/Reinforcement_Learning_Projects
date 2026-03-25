@@ -85,6 +85,36 @@ cd Project_01_RLHF_LLM_Alignment
 streamlit run app.py
 ```
 
+---
+
+## Contributors & Domain Experts
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/mlnjsh">
+        <img src="https://github.com/mlnjsh.png" width="80px;" alt="Milan Amrut Joshi"/><br />
+        <sub><b>Milan Amrut Joshi</b></sub>
+      </a><br />
+      <sub>Project Author</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/joschu">
+        <img src="https://github.com/joschu.png" width="80px;" alt="John Schulman"/><br />
+        <sub><b>John Schulman</b></sub>
+      </a><br />
+      <sub>Co-creator of PPO, TRPO & RLHF at OpenAI</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/lvwerra">
+        <img src="https://github.com/lvwerra.png" width="80px;" alt="Leandro von Werra"/><br />
+        <sub><b>Leandro von Werra</b></sub>
+      </a><br />
+      <sub>Creator of TRL (Transformer RL), Hugging Face</sub>
+    </td>
+  </tr>
+</table>
+
 ## References
 - Ouyang et al., "Training language models to follow instructions with human feedback" (2022)
 - Schulman et al., "Proximal Policy Optimization Algorithms" (2017)

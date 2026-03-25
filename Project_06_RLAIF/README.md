@@ -120,3 +120,33 @@ The demo lets you:
 - Adjust AI judge accuracy and human noise levels
 - See how both approaches converge to a final policy
 - Explore label agreement rates and reward curves
+
+---
+
+## Contributors & Domain Experts
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/mlnjsh">
+        <img src="https://github.com/mlnjsh.png" width="80px;" alt="Milan Amrut Joshi"/><br />
+        <sub><b>Milan Amrut Joshi</b></sub>
+      </a><br />
+      <sub>Project Author</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/lvwerra">
+        <img src="https://github.com/lvwerra.png" width="80px;" alt="Leandro von Werra"/><br />
+        <sub><b>Leandro von Werra</b></sub>
+      </a><br />
+      <sub>TRL Library, Hugging Face RL Team</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/edbeeching">
+        <img src="https://github.com/edbeeching.png" width="80px;" alt="Edward Beeching"/><br />
+        <sub><b>Edward Beeching</b></sub>
+      </a><br />
+      <sub>Hugging Face RL Researcher</sub>
+    </td>
+  </tr>
+</table>

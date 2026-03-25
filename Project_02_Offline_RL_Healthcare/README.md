@@ -130,3 +130,33 @@ The demo lets you:
 - See how CQL penalizes out-of-distribution actions
 - Adjust dataset size, CQL conservatism (alpha), and number of treatments
 - Visualize Q-value distributions, reward curves, and policy comparisons
+
+---
+
+## Contributors & Domain Experts
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/mlnjsh">
+        <img src="https://github.com/mlnjsh.png" width="80px;" alt="Milan Amrut Joshi"/><br />
+        <sub><b>Milan Amrut Joshi</b></sub>
+      </a><br />
+      <sub>Project Author</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/aviralkumar2907">
+        <img src="https://github.com/aviralkumar2907.png" width="80px;" alt="Aviral Kumar"/><br />
+        <sub><b>Aviral Kumar</b></sub>
+      </a><br />
+      <sub>Creator of CQL (Conservative Q-Learning), UC Berkeley</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/justinjfu">
+        <img src="https://github.com/justinjfu.png" width="80px;" alt="Justin Fu"/><br />
+        <sub><b>Justin Fu</b></sub>
+      </a><br />
+      <sub>Offline RL Researcher, D4RL Benchmark Creator, UC Berkeley</sub>
+    </td>
+  </tr>
+</table>

@@ -106,3 +106,33 @@ streamlit run app.py
 ```
 
 The demo simulates a simplified molecular builder where an RL agent learns to construct "molecules" (sequences of atoms) that satisfy target property constraints, with interactive control over objectives and weights.
+
+---
+
+## Contributors & Domain Experts
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/mlnjsh">
+        <img src="https://github.com/mlnjsh.png" width="80px;" alt="Milan Amrut Joshi"/><br />
+        <sub><b>Milan Amrut Joshi</b></sub>
+      </a><br />
+      <sub>Project Author</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/wengong-jin">
+        <img src="https://github.com/wengong-jin.png" width="80px;" alt="Wengong Jin"/><br />
+        <sub><b>Wengong Jin</b></sub>
+      </a><br />
+      <sub>Molecular Generation with RL, MIT</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/rbharath">
+        <img src="https://github.com/rbharath.png" width="80px;" alt="Bharath Ramsundar"/><br />
+        <sub><b>Bharath Ramsundar</b></sub>
+      </a><br />
+      <sub>Creator of DeepChem, Drug Discovery ML</sub>
+    </td>
+  </tr>
+</table>

@@ -137,3 +137,33 @@ The demo lets you:
 - Compare flat Q-learning vs hierarchical approach
 - See subgoal selection heatmaps
 - Adjust grid size, room layout, and subgoal positions
+
+---
+
+## Contributors & Domain Experts
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/mlnjsh">
+        <img src="https://github.com/mlnjsh.png" width="80px;" alt="Milan Amrut Joshi"/><br />
+        <sub><b>Milan Amrut Joshi</b></sub>
+      </a><br />
+      <sub>Project Author</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/ofirnachum">
+        <img src="https://github.com/ofirnachum.png" width="80px;" alt="Ofir Nachum"/><br />
+        <sub><b>Ofir Nachum</b></sub>
+      </a><br />
+      <sub>Hierarchical RL Researcher, Google Brain</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/pierrelux">
+        <img src="https://github.com/pierrelux.png" width="80px;" alt="Pierre-Luc Bacon"/><br />
+        <sub><b>Pierre-Luc Bacon</b></sub>
+      </a><br />
+      <sub>Options Framework Researcher, Mila</sub>
+    </td>
+  </tr>
+</table>

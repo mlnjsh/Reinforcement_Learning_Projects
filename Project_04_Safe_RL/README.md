@@ -165,3 +165,33 @@ The demo lets you:
 - Adjust the cost threshold to control how cautious the agent is
 - Visualize paths, reward curves, cost curves, and constraint satisfaction
 - See how lambda evolves during training
+
+---
+
+## Contributors & Domain Experts
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/mlnjsh">
+        <img src="https://github.com/mlnjsh.png" width="80px;" alt="Milan Amrut Joshi"/><br />
+        <sub><b>Milan Amrut Joshi</b></sub>
+      </a><br />
+      <sub>Project Author</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/jachiam">
+        <img src="https://github.com/jachiam.png" width="80px;" alt="Joshua Achiam"/><br />
+        <sub><b>Joshua Achiam</b></sub>
+      </a><br />
+      <sub>Creator of CPO (Constrained Policy Optimization), OpenAI</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/alexray">
+        <img src="https://github.com/alexray.png" width="80px;" alt="Alex Ray"/><br />
+        <sub><b>Alex Ray</b></sub>
+      </a><br />
+      <sub>Safe RL Researcher, OpenAI, Co-author of Safety Gym</sub>
+    </td>
+  </tr>
+</table>
