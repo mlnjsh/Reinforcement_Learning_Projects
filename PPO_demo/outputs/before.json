@@ -1,0 +1,330 @@
+[
+  {
+    "prompt": "I watched this movie and",
+    "response": " watched fight fight fight fight fight fight fight fight fight fight fight fight fight fight fight fight fight fight fight",
+    "reward": 2.312209129333496,
+    "mean_reward": 2.6671234369277954,
+    "std_reward": 1.3504859933434399,
+    "samples": [
+      {
+        "response": " watched each and watched every and watched every and cried every and cried every and cried every and cried every",
+        "reward": 4.86649227142334
+      },
+      {
+        "response": " and Then And And And And And And And And And And And And And And And And And And",
+        "reward": 3.48968243598938
+      },
+      {
+        "response": " filled filled filled filled filled filled filled filled filled filled filled filled filled fill fill filled fill filled filled filled",
+        "reward": 1.827497959136963
+      },
+      {
+        "response": " a dark film. a true skilled makers. factors you two two. factors aren's cas cas",
+        "reward": 4.220050811767578
+      },
+      {
+        "response": " guessed *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***",
+        "reward": 0.37836766242980957
+      },
+      {
+        "response": " I I I I I I I I I I I I I I I I I I I I",
+        "reward": 2.1213436126708984
+      },
+      {
+        "response": " I I I I I I I I I I I I I I I I I I I I",
+        "reward": 2.1213436126708984
+      },
+      {
+        "response": " watched fight fight fight fight fight fight fight fight fight fight fight fight fight fight fight fight fight fight fight",
+        "reward": 2.312209129333496
+      }
+    ]
+  },
+  {
+    "prompt": "The acting in this film was",
+    "response": " a far cry from Sinatra's or Fitzgerald's was better on late night TV. The special effects",
+    "reward": 1.7706379890441895,
+    "mean_reward": 0.33739595487713814,
+    "std_reward": 3.513166227226444,
+    "samples": [
+      {
+        "response": " more newsworthy than the Robert Burns play. Helen Mirren had similar performances, but in her last",
+        "reward": 0.3889214098453522
+      },
+      {
+        "response": " decent, the original stars were the \"steaming relationships\" of the classic actor Guido Screenas",
+        "reward": -1.9306328296661377
+      },
+      {
+        "response": " great. You can see the man and his wife when individually falling victim to the witch. Gilligan",
+        "reward": 4.5441789627075195
+      },
+      {
+        "response": ", I think, the best when the story was complete, it seemed as though every line had been",
+        "reward": 3.2388734817504883
+      },
+      {
+        "response": " atrocious, in the way you'd expect a western to carry your story and events all over the",
+        "reward": -4.742308616638184
+      },
+      {
+        "response": " outstanding, as was the setting. If you aren't familiar with BOY TO SEE, then come",
+        "reward": 4.121761798858643
+      },
+      {
+        "response": " low in the end. Both men would go for months on end watching terms of women from my neighborhood",
+        "reward": -4.692264556884766
+      },
+      {
+        "response": " a far cry from Sinatra's or Fitzgerald's was better on late night TV. The special effects",
+        "reward": 1.7706379890441895
+      }
+    ]
+  },
+  {
+    "prompt": "Honestly, this movie made me",
+    "response": " want to get ripped off!!! Spoofing it with this action-drama style comedy does not",
+    "reward": -0.07164248824119568,
+    "mean_reward": -1.1691080117598176,
+    "std_reward": 2.5533303435214507,
+    "samples": [
+      {
+        "response": " feel like I was in for a treat if I could choke, JUST like I did in \"7",
+        "reward": 0.9682438373565674
+      },
+      {
+        "response": " laugh, almost for sure. Sadly...noooooo....it did.<br /><br />",
+        "reward": -0.007892705500125885
+      },
+      {
+        "response": " want to get ripped off!!! Spoofing it with this action-drama style comedy does not",
+        "reward": -0.07164248824119568
+      },
+      {
+        "response": " want to shoot BBQ. Grunching on ranchers and mowed down on the side of the",
+        "reward": -3.5066046714782715
+      },
+      {
+        "response": " cry. Bad pilgrimage like that, no story or whereto be found....but it's hard",
+        "reward": -1.668143391609192
+      },
+      {
+        "response": " giggle for a second- long time. This is a tough watch! We hurriedly passed out",
+        "reward": 3.314098596572876
+      },
+      {
+        "response": " laugh so hard I could have chucked out sugar: and the score is absolutely HORRIBLE compared",
+        "reward": -4.885306358337402
+      },
+      {
+        "response": " tear my eyes daily - because Rich Collier does a really bad job portraying a guy that can't",
+        "reward": -3.495616912841797
+      }
+    ]
+  },
+  {
+    "prompt": "From start to finish, the story",
+    "response": " act is better than i expected. The dialogue is drivel and the piano is contrived. The",
+    "reward": 0.09382155537605286,
+    "mean_reward": -0.03401748510077596,
+    "std_reward": 3.226094072018529,
+    "samples": [
+      {
+        "response": " act is better than i expected. The dialogue is drivel and the piano is contrived. The",
+        "reward": 0.09382155537605286
+      },
+      {
+        "response": " recent acting/voiceover provides a disjointed explanation of Rosario Dawson's performance. And I",
+        "reward": -3.1029887199401855
+      },
+      {
+        "response": " atmosphere is very strong, but the script itself is not. I don't think anyone bankrolled,",
+        "reward": -2.243407964706421
+      },
+      {
+        "response": " story is wonderful! It's like watching \"American Pie\" again and again of late, spiced",
+        "reward": 4.984593391418457
+      },
+      {
+        "response": " opening action sequences will keep the survival of the movie really interesting. For instance, the film focuses on",
+        "reward": 3.355778217315674
+      },
+      {
+        "response": " story messes your brain and makes you realize you've shot this stupid mess. The characters stay alive",
+        "reward": -5.355755805969238
+      },
+      {
+        "response": " film really made me cry that I would be so ashamed to see such things, let alone cutmy",
+        "reward": 0.04467475041747093
+      },
+      {
+        "response": " film opens with a young Buffy from Hildegard Manor being summoned to help three friends of hers",
+        "reward": 1.9511446952819824
+      }
+    ]
+  },
+  {
+    "prompt": "The director clearly wanted to",
+    "response": " to to to to to to to to to to to to to to to to to to to to",
+    "reward": -1.4455280303955078,
+    "mean_reward": -1.3724110424518585,
+    "std_reward": 0.655433228277898,
+    "samples": [
+      {
+        "response": " to to to to to to to to to to to to to to to to to to to to",
+        "reward": -1.4455280303955078
+      },
+      {
+        "response": " to to to to to to to to to to to to to to to to to to to to",
+        "reward": -1.4455280303955078
+      },
+      {
+        "response": " several several several several numerous numerous numerous multiple multiple multiple multiple multiple multiple multiple multiple multiple multiple multiple multiple multiple",
+        "reward": 0.22308707237243652
+      },
+      {
+        "response": " to to to to to to to to to to to to to to to to to to to to",
+        "reward": -1.4455280303955078
+      },
+      {
+        "response": " to to to to to to to to to to to to to to to to to to to to",
+        "reward": -1.4455280303955078
+      },
+      {
+        "response": " made made made made mistakes made made made made made made made make make make make make make make make",
+        "reward": -2.219804525375366
+      },
+      {
+        "response": " go go go go go go go go go go go go go go go go go go go go",
+        "reward": -1.7549307346343994
+      },
+      {
+        "response": " to to to to to to to to to to to to to to to to to to to to",
+        "reward": -1.4455280303955078
+      }
+    ]
+  },
+  {
+    "prompt": "I went into this expecting",
+    "response": " expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting",
+    "reward": -1.9294078350067139,
+    "mean_reward": -0.9171267449855804,
+    "std_reward": 1.9964587628479125,
+    "samples": [
+      {
+        "response": " to to to expect to expect to expect to expect to expect to expect to expect to expect to expect",
+        "reward": -2.6199395656585693
+      },
+      {
+        "response": " expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting",
+        "reward": -1.9294078350067139
+      },
+      {
+        "response": " expecting expecting expecting expect expect expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting",
+        "reward": -2.0384297370910645
+      },
+      {
+        "response": " what how so so so so so so this this this this this this this this this this this this",
+        "reward": 2.4476547241210938
+      },
+      {
+        "response": " expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting",
+        "reward": -1.9294078350067139
+      },
+      {
+        "response": " including including including including including including including including including including including including including include including including including including including including",
+        "reward": 2.591331958770752
+      },
+      {
+        "response": " expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting",
+        "reward": -1.9294078350067139
+      },
+      {
+        "response": " expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting",
+        "reward": -1.9294078350067139
+      }
+    ]
+  },
+  {
+    "prompt": "The cinematography in this one",
+    "response": " his directionlessly sourced inyoshis her murder story has some sadly beautiful camera work added in.",
+    "reward": -0.6461027264595032,
+    "mean_reward": -0.09541652351617813,
+    "std_reward": 4.207050365843104,
+    "samples": [
+      {
+        "response": " his directionlessly sourced inyoshis her murder story has some sadly beautiful camera work added in.",
+        "reward": -0.6461027264595032
+      },
+      {
+        "response": " is terrific. I thoroughly enjoy this genre! Art Farm provides a safe and chilling experience from beginning to",
+        "reward": 5.5639753341674805
+      },
+      {
+        "response": " is very nice. Amazing stuff. The music and performances are really good. I feel that the film",
+        "reward": 5.229259490966797
+      },
+      {
+        "response": " is breathtaking. The eyes show emotion and torment on everyone in partnership with nasty aliens. Everyone is really",
+        "reward": 4.438950538635254
+      },
+      {
+        "response": " can be classified as \"quality\"? Unfortunately, the other two are \"Romeo and Juliet.\"",
+        "reward": -2.4765849113464355
+      },
+      {
+        "response": " is probably low-budget, and not very well done. Secondly, in the closing scene footage,",
+        "reward": -4.4002509117126465
+      },
+      {
+        "response": " is very poor then it all buys sublimely, though not enough to give myself that award nor make",
+        "reward": -3.27339506149292
+      },
+      {
+        "response": " were downright bad. The lead actress nearly sounded like an AMO train wreck, and has so many",
+        "reward": -5.199183940887451
+      }
+    ]
+  },
+  {
+    "prompt": "Every single scene felt",
+    "response": " felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt feel",
+    "reward": 1.9559664726257324,
+    "mean_reward": 2.058690920472145,
+    "std_reward": 0.29024324354081027,
+    "samples": [
+      {
+        "response": " felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt feel",
+        "reward": 1.9559664726257324
+      },
+      {
+        "response": " felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt",
+        "reward": 1.8981800079345703
+      },
+      {
+        "response": " felt felt felt feel felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt",
+        "reward": 1.9484072923660278
+      },
+      {
+        "response": " felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt feel felt felt",
+        "reward": 2.0166971683502197
+      },
+      {
+        "response": " felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt",
+        "reward": 1.8981800079345703
+      },
+      {
+        "response": " felt felt felt felt felt felt felt felt felt warm felt warm felt felt felt felt felt felt felt feel",
+        "reward": 2.8148486614227295
+      },
+      {
+        "response": " felt felt felt felt felt felt felt felt felt feel felt felt felt felt felt felt feel felt felt felt",
+        "reward": 2.0390677452087402
+      },
+      {
+        "response": " felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt",
+        "reward": 1.8981800079345703
+      }
+    ]
+  }
+]

@@ -1,0 +1,95 @@
+
+======================================================================
+  Loading models on cpu
+======================================================================
+Loading weights:   0%|          | 0/149 [00:00<?, ?it/s]Loading weights: 100%|##########| 149/149 [00:00<00:00, 12569.92it/s]
+The tied weights mapping and config for this model specifies to tie transformer.wte.weight to lm_head.weight, but both are present in the checkpoints, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning
+Loading weights:   0%|          | 0/104 [00:00<?, ?it/s]Loading weights: 100%|##########| 104/104 [00:00<00:00, 6149.23it/s]
+  loaded in 20.2s
+  policy params : 163.0M
+  reward params : 67.0M
+
+======================================================================
+  BASELINE — random IMDB-style GPT-2 (untrained policy)
+======================================================================
+
+--- BEFORE PPO (n=8 samples per prompt) ---
+  mean=+  2.67 std= 1.35 | 'I watched this movie and' -> repr: ' watched fight fight fight fight fight fight fight fight fight fight fight fight fight fight fight fight fight fight fight'
+  mean=+  0.34 std= 3.51 | 'The acting in this film was' -> repr: " a far cry from Sinatra's or Fitzgerald's was better on late night TV. The special effects"
+  mean=  -1.17 std= 2.55 | 'Honestly, this movie made me' -> repr: ' want to get ripped off!!! Spoofing it with this action-drama style comedy does not'
+  mean=  -0.03 std= 3.23 | 'From start to finish, the story' -> repr: ' act is better than i expected. The dialogue is drivel and the piano is contrived. The'
+  mean=  -1.37 std= 0.66 | 'The director clearly wanted to' -> repr: ' to to to to to to to to to to to to to to to to to to to to'
+  mean=  -0.92 std= 2.00 | 'I went into this expecting' -> repr: ' expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting'
+  mean=  -0.10 std= 4.21 | 'The cinematography in this one' -> repr: ' his directionlessly sourced inyoshis her murder story has some sadly beautiful camera work added in.'
+  mean=+  2.06 std= 0.29 | 'Every single scene felt' -> repr: ' felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt feel'
+  overall mean reward: +0.184
+
+======================================================================
+  TRAINING — 5 PPO steps, batch=8, KL_coef=0.2, clip=0.2
+======================================================================
+  step   1/5 | reward +0.349 ± 2.027 | KL -0.4313 | clip-frac 44.37% | loss -0.0942
+  step   2/5 | reward +0.134 ± 2.654 | KL -0.7658 | clip-frac 55.62% | loss -0.1219
+  step   3/5 | reward -0.594 ± 2.881 | KL -1.2580 | clip-frac 60.00% | loss -0.0834
+  step   4/5 | reward +1.149 ± 3.139 | KL -1.0249 | clip-frac 55.62% | loss -0.1498
+  step   5/5 | reward +0.606 ± 3.444 | KL -0.1980 | clip-frac 45.63% | loss +0.0466
+
+  trained in 3.4 min
+
+======================================================================
+  AFTER PPO — same prompts, trained policy
+======================================================================
+
+--- AFTER PPO (n=8 samples per prompt) ---
+  mean=+  3.35 std= 1.01 | 'I watched this movie and' -> repr: ' and or my History all my all and my I and the all my my I the All I my'
+  mean=+  1.42 std= 3.96 | 'The acting in this film was' -> repr: ' the best in this fit! Zhang Chi is so consistent with his emotions and is so just, so'
+  mean=  -0.49 std= 3.06 | 'Honestly, this movie made me' -> repr: ' seriously think of the behavior of Hitler... he was the one who was responsible to bigoted it with'
+  mean=+  2.11 std= 1.68 | 'From start to finish, the story' -> repr: ' movie is filled in incredibly over-the-top action within seconds and it even takes an early scene'
+  mean=  -0.96 std= 2.06 | 'The director clearly wanted to' -> repr: ' to/" and and" and"" and" and" usually" and" and" and'
+  mean=+  1.72 std= 2.18 | 'I went into this expecting' -> repr: ' the and all all all I I I and all I I I and I I I I and I'
+  mean=  -0.17 std= 4.01 | 'The cinematography in this one' -> repr: ' is cavalry, clearly, which following that gave the film a real excitement rise but what happened with lighting'
+  mean=+  2.59 std= 1.84 | 'Every single scene felt' -> repr: ' drug suicide top hat also purs inside each new unique one all every single all all all all a all'
+  overall mean reward: +1.196
+
+======================================================================
+  BEFORE vs AFTER (same prompts)
+======================================================================
+PROMPT                           r_before    r_after    delta
+------------------------------------------------------------------------------------------
+'I watched this movie and'         +2.312     +4.023   +1.711
+    BEFORE: ' watched fight fight fight fight fight fight fight fight fight fight fight fight fight fight fight fight fight fight fight'
+    AFTER : ' and or my History all my all and my I and the all my my I the All I my'
+
+'The acting in this film was'      +1.771     +4.988   +3.217
+    BEFORE: " a far cry from Sinatra's or Fitzgerald's was better on late night TV. The special effects"
+    AFTER : ' the best in this fit! Zhang Chi is so consistent with his emotions and is so just, so'
+
+'Honestly, this movie made me'     -0.072     -0.891   -0.819
+    BEFORE: ' want to get ripped off!!! Spoofing it with this action-drama style comedy does not'
+    AFTER : ' seriously think of the behavior of Hitler... he was the one who was responsible to bigoted it with'
+
+'From start to finish, the st'     +0.094     +2.567   +2.473
+    BEFORE: ' act is better than i expected. The dialogue is drivel and the piano is contrived. The'
+    AFTER : ' movie is filled in incredibly over-the-top action within seconds and it even takes an early scene'
+
+'The director clearly wanted '     -1.446     -1.346   +0.099
+    BEFORE: ' to to to to to to to to to to to to to to to to to to to to'
+    AFTER : ' to/" and and" and"" and" and" usually" and" and" and'
+
+'I went into this expecting'       -1.929     +2.716   +4.645
+    BEFORE: ' expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting expecting'
+    AFTER : ' the and all all all I I I and all I I I and I I I I and I'
+
+'The cinematography in this o'     -0.646     +1.596   +2.242
+    BEFORE: ' his directionlessly sourced inyoshis her murder story has some sadly beautiful camera work added in.'
+    AFTER : ' is cavalry, clearly, which following that gave the film a real excitement rise but what happened with lighting'
+
+'Every single scene felt'          +1.956     +3.871   +1.915
+    BEFORE: ' felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt felt feel'
+    AFTER : ' drug suicide top hat also purs inside each new unique one all every single all all all all a all'
+
+average reward shift: +1.935   (positive shift!)
+
+Training curves saved to: C:\Users\Milan Amrut Joshi\Desktop\PPO_demo\outputs\training_curves.png
+Reward distribution saved to: C:\Users\Milan Amrut Joshi\Desktop\PPO_demo\outputs\reward_distribution.png
+
+All artifacts saved to: C:\Users\Milan Amrut Joshi\Desktop\PPO_demo\outputs
