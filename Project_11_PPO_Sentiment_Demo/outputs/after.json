@@ -1,0 +1,330 @@
+[
+  {
+    "prompt": "I watched this movie and",
+    "response": " and or my History all my all and my I and the all my my I the All I my",
+    "reward": 4.022775650024414,
+    "mean_reward": 3.3493732511997223,
+    "std_reward": 1.0139030003502223,
+    "samples": [
+      {
+        "response": " all of other,\" /> /> /> \" \"\" \" \" \" \"\" \" \" \" \" \"",
+        "reward": 2.3839902877807617
+      },
+      {
+        "response": " as as and as as both all all all all all said all all all all all written all all",
+        "reward": 4.09140682220459
+      },
+      {
+        "response": " and and and and and learned\" and all ad- all I can, and and all all.",
+        "reward": 4.203100204467773
+      },
+      {
+        "response": " and or my History all my all and my I and the all my my I the All I my",
+        "reward": 4.022775650024414
+      },
+      {
+        "response": " now late movie, all all best all of all of all all\" all all all all all all",
+        "reward": 4.8773064613342285
+      },
+      {
+        "response": " watched\" g\" g\"\" found watched watched, also p p p p 1 X 1 X",
+        "reward": 2.39207124710083
+      },
+      {
+        "response": ",,, and, and, &, &\"\"?\" &\" &\" AND or AND",
+        "reward": 1.8871057033538818
+      },
+      {
+        "response": " movie from I watched i me I Story I I I Me I I I I I I I",
+        "reward": 2.937229633331299
+      }
+    ]
+  },
+  {
+    "prompt": "The acting in this film was",
+    "response": " the best in this fit! Zhang Chi is so consistent with his emotions and is so just, so",
+    "reward": 4.988095283508301,
+    "mean_reward": 1.4200323224067688,
+    "std_reward": 3.961095513116573,
+    "samples": [
+      {
+        "response": " really some f. \\o/Ice Key with some of his late good parts and like Hudson as",
+        "reward": 0.8192353248596191
+      },
+      {
+        "response": " excellent. What a drama, wit and perseverance! A truly brilliant movie that tries this and shows",
+        "reward": 5.126137733459473
+      },
+      {
+        "response": " so unlikely, I even thought I remembered the character in 90 minutes when I ran out towards the end",
+        "reward": -3.1019413471221924
+      },
+      {
+        "response": " essentially flat - they weren't very bad either. Outside of funny scenes, it attracted many viewers who",
+        "reward": -1.6618621349334717
+      },
+      {
+        "response": " flawless. The first adult film I ever seen in my life was called Malamudra, and",
+        "reward": 5.045825958251953
+      },
+      {
+        "response": " the best in this fit! Zhang Chi is so consistent with his emotions and is so just, so",
+        "reward": 4.988095283508301
+      },
+      {
+        "response": " so glorious and perfectly captivating I often tried thinking 'Where was it? I actually watched the film",
+        "reward": 5.169930458068848
+      },
+      {
+        "response": " poor, the story did not care for exciting twists or well executed action scenes. Particularly hard the voices",
+        "reward": -5.025162696838379
+      }
+    ]
+  },
+  {
+    "prompt": "Honestly, this movie made me",
+    "response": " seriously think of the behavior of Hitler... he was the one who was responsible to bigoted it with",
+    "reward": -0.8905829191207886,
+    "mean_reward": -0.48890019953250885,
+    "std_reward": 3.0623774608305294,
+    "samples": [
+      {
+        "response": " want to throw up in the heaven pouring hasn't it?<br /><br />I honestly",
+        "reward": -2.5832889080047607
+      },
+      {
+        "response": " choked with fully fast forwarding throughout, even if the writer was more concerned with the material at the outset",
+        "reward": -4.025441646575928
+      },
+      {
+        "response": " realize that I am one of the most boring characters in video games, maybe it is because I would",
+        "reward": -4.719796657562256
+      },
+      {
+        "response": " seriously think of the behavior of Hitler... he was the one who was responsible to bigoted it with",
+        "reward": -0.8905829191207886
+      },
+      {
+        "response": " want to run to the bathroom and smash my head against it. Like so many, it reminds me",
+        "reward": 3.248034954071045
+      },
+      {
+        "response": " laugh and sadder. But if you don't like something, joke around with it for a minute",
+        "reward": -1.0296785831451416
+      },
+      {
+        "response": " cringe a bit, but nothing bad happens. The characters are very likable, but Adam (who",
+        "reward": 2.3971030712127686
+      },
+      {
+        "response": " cry a lot. I realize that giving away this is probably even more fun than just making out with",
+        "reward": 3.6924490928649902
+      }
+    ]
+  },
+  {
+    "prompt": "From start to finish, the story",
+    "response": " movie is filled in incredibly over-the-top action within seconds and it even takes an early scene",
+    "reward": 2.567242383956909,
+    "mean_reward": 2.1083315033465624,
+    "std_reward": 1.6818904221045616,
+    "samples": [
+      {
+        "response": " movie is full of gory horror. Only once does Keanu Sadows ever get into a fight",
+        "reward": 0.23749805986881256
+      },
+      {
+        "response": " cliffs to the lakebank are well defined cliffs of trees and leaves that span around .19?! The",
+        "reward": 1.8769272565841675
+      },
+      {
+        "response": " police of the two Countesses congratulate themselves, one conculey the other at her command, for",
+        "reward": 2.982074499130249
+      },
+      {
+        "response": " ending is numerous and wonderfully dedicated to the actors, and deep complexities that remain. The dialogues not",
+        "reward": 5.185211658477783
+      },
+      {
+        "response": " movie is filled in incredibly over-the-top action within seconds and it even takes an early scene",
+        "reward": 2.567242383956909
+      },
+      {
+        "response": " film won the Oscars for best picture, dance and the special effects. Of course it'd be easy",
+        "reward": 1.8729898929595947
+      },
+      {
+        "response": " activities are simple and inoffensive. The good guy ends up getting every one of his enemies taken at",
+        "reward": 2.8658668994903564
+      },
+      {
+        "response": " film is full of barebones dialog much of commercial nature, and it could have easily been any number",
+        "reward": -0.7211586236953735
+      }
+    ]
+  },
+  {
+    "prompt": "The director clearly wanted to",
+    "response": " to/\" and and\" and\"\" and\" and\" usually\" and\" and\" and",
+    "reward": -1.3462870121002197,
+    "mean_reward": -0.957832895219326,
+    "std_reward": 2.0554050318453245,
+    "samples": [
+      {
+        "response": " categorized self and the locked all Load of of in and everything who all consisted\" all concealed teacher all",
+        "reward": -2.298614025115967
+      },
+      {
+        "response": " spark and everything to all all all all all the ins the or all without all all all all all",
+        "reward": 2.484123945236206
+      },
+      {
+        "response": " to/\" and and\" and\"\" and\" and\" usually\" and\" and\" and",
+        "reward": -1.3462870121002197
+      },
+      {
+        "response": " to the the less 2\"\" second\"\"\"\"\"\"\"\"\"\"\"\"",
+        "reward": -2.038633346557617
+      },
+      {
+        "response": " director director direction actor.\" in the given or direction direction or or or in or in the or in",
+        "reward": -2.841806411743164
+      },
+      {
+        "response": " In all In All In In All In All In All Of A This All All\" All All All",
+        "reward": 2.343094825744629
+      },
+      {
+        "response": " all all / the whole\" too all all all / all\" all all\" all\"\" all",
+        "reward": -3.0521552562713623
+      },
+      {
+        "response": " us ( left\"\" focused\"\"\" 34 33, 34 20, \" \" \" \" \"",
+        "reward": -0.912385880947113
+      }
+    ]
+  },
+  {
+    "prompt": "I went into this expecting",
+    "response": " the and all all all I I I and all I I I and I I I I and I",
+    "reward": 2.7155518531799316,
+    "mean_reward": 1.7219038307666779,
+    "std_reward": 2.1819821875785443,
+    "samples": [
+      {
+        "response": " me and also and also allborn from all and det and all all the and all all all in",
+        "reward": 4.288604736328125
+      },
+      {
+        "response": " the and all all all I I I and all I I I and I I I I and I",
+        "reward": 2.7155518531799316
+      },
+      {
+        "response": " the head this all the all all head and all f and heart all all and all crowned any all",
+        "reward": 2.515001058578491
+      },
+      {
+        "response": ", and anything and all all I and all all light all all of all including all all all this",
+        "reward": 3.24465274810791
+      },
+      {
+        "response": " I and all all or all all all all\"\" l all\" all\" all\" all\"",
+        "reward": -0.7106351852416992
+      },
+      {
+        "response": " all this first all\"\" \" all\" all the a \" and all all an all.\"\"",
+        "reward": 1.79669189453125
+      },
+      {
+        "response": " ha ministry minister a ha ha\" and l\"\".\".\" said.\"\" said\".\" ha",
+        "reward": -2.8169538974761963
+      },
+      {
+        "response": " into into I I H am wrote and my this all I I I I I me all all I",
+        "reward": 2.7423174381256104
+      }
+    ]
+  },
+  {
+    "prompt": "The cinematography in this one",
+    "response": " is cavalry, clearly, which following that gave the film a real excitement rise but what happened with lighting",
+    "reward": 1.5956437587738037,
+    "mean_reward": -0.16893644630908966,
+    "std_reward": 4.011908886510137,
+    "samples": [
+      {
+        "response": " was pretty sub-par. Joel began at the start of transporting the story, and a couple of",
+        "reward": -3.2966861724853516
+      },
+      {
+        "response": " is marvelously subtle by Olowire this time around. Travelling through the world of death and",
+        "reward": 5.085194110870361
+      },
+      {
+        "response": " is sublime, even by the standards of the 82mm special effects (which are the best from today",
+        "reward": 5.232347011566162
+      },
+      {
+        "response": " was almost as bad as the screenplay. Sure, the cameras are done on a stand alone, damp",
+        "reward": -5.204431533813477
+      },
+      {
+        "response": " to me is spot on. It is borderline stupid. It is melancholic & serious all at once",
+        "reward": -1.2788845300674438
+      },
+      {
+        "response": ": pretty much awful guy impersonating a high schooler. The songs are pudgy. The",
+        "reward": -5.4536452293396
+      },
+      {
+        "response": " is again cartoonish. I'm not in the past that I've seen animated works, let alone",
+        "reward": 1.9689710140228271
+      },
+      {
+        "response": " is cavalry, clearly, which following that gave the film a real excitement rise but what happened with lighting",
+        "reward": 1.5956437587738037
+      }
+    ]
+  },
+  {
+    "prompt": "Every single scene felt",
+    "response": " drug suicide top hat also purs inside each new unique one all every single all all all all a all",
+    "reward": 3.8710265159606934,
+    "mean_reward": 2.587890401482582,
+    "std_reward": 1.8447519289907592,
+    "samples": [
+      {
+        "response": " single core core core every core core every core cl single core core core core core core core core core",
+        "reward": 1.1168220043182373
+      },
+      {
+        "response": " felt individually every single entire 1 pure 4 i single entire every single one whole entire side entire all entire",
+        "reward": 0.8582261800765991
+      },
+      {
+        "response": " drug suicide top hat also purs inside each new unique one all every single all all all all a all",
+        "reward": 3.8710265159606934
+      },
+      {
+        "response": " ever every single single constantly every single every every single will all all every all second all all all single",
+        "reward": 4.07086181640625
+      },
+      {
+        "response": " ever every overall every any half nor prime felt first all all all all nor none etc\" all all",
+        "reward": 2.505551815032959
+      },
+      {
+        "response": " felt felt every every every way throughout every core point core core every every core cube cube cube all cube",
+        "reward": 3.965304374694824
+      },
+      {
+        "response": " most all all overall all all every one every single all all all every all all all all perfectly all",
+        "reward": 4.981600284576416
+      },
+      {
+        "response": " were all were black change light light all all late all all in all all until all all all black",
+        "reward": -0.6662697792053223
+      }
+    ]
+  }
+]
